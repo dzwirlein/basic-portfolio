@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:#dddd;
+    color: #777777;
+    margin:0px;
+
+}
+
+.About {
+    clear: both;
+    overflow:auto;
+    background-color:white;
+    width: 960px;
+    margin: auto;
+    margin-bottom:100px;
+
+}
+
+
+h1 {
+    background-color:#4aaaa5;
+    color:white;
+    font-family: Georgia, Times, Times New Roman, serif;
+    float:left;
+    padding: 20px;
+}
+
+Header {
+    background-color:white;
+    height:100px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+    width:100%;
+    
+}
+
+
+#top {
+    width:960px;
+    margin:auto;
+    padding:0px;
+    
+}
+
+
+#links {
+    Float:right;
+    font-size: 18px;
+    padding-top: 40px;
+    color:#dddd
+    
+}
+
+h2 {
+    clear: both;
+    overflow: auto;
+    color:#4aaaa5;
+    margin-left:10px;
+}
+
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:10px;
+    margin-right: 10px;
+    border-style: inset;
+    border-width: 1px;
+    color:gray;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+
+img {
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#full {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+
+
+footer {
+    clear: both;
+    overflow:auto;
+    background-color:#6666;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    border-top-style:solid;
+    border-top-width:10px;
+    border-top-color:#4aaaa5;
+
+}
